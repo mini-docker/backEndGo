@@ -1,0 +1,210 @@
+[v-cloak] {
+  display: none;
+}
+// 头部面包屑样式调整
+.pulls-right{
+    float: right;
+    line-height: 32px;
+    margin-top: -28px;
+}
+.crumbsf {
+    height: 39px;
+    line-height: 32px;
+    margin: 0;
+    .el-breadcrumb__item{
+        line-height: 32px;
+    }
+}
+// common
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+// table-form
+.pk-inp-box{
+    width: 240px;
+    display: flex;
+    font-size: 14px;
+    label{
+        width: auto;
+        margin-right: 12px;
+        line-height: 32px;
+        color: #666;
+    }
+    .selbox{
+        flex: 1;
+        margin-right: 10px;
+        font-size: 14px!important;
+    }
+}
+/deep/.el-input{
+    height: 28px!important;
+    .el-input__inner{
+        height: 28px!important;
+    }
+}
+.el-select-dropdown__item{
+    font-size: 12px!important;
+}
+.pk-select{
+   width: 170px;
+}
+
+.handle-box {
+    margin-bottom: 5px;
+    display: flex;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.search-box{
+    margin-bottom: 4px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    .pk-inp-box{
+        float: left;
+        margin: 2px 0;
+    }
+    *{
+        font-size: 12px!important;
+    }
+}
+.clearboth{
+    clear: both;
+}
+.dis-inb{
+    display: inline-block;
+}
+.dis-block{
+    display: block;
+}
+.dis-none{
+    display: none;
+}
+.handle-input {
+    width: 300px;
+    display: inline-block;
+}
+.allHeight{
+    max-height: -webkit-calc(100%);
+    overflow: hidden;
+}
+.table {
+    width: 100%;
+    font-size: 14px;
+}
+.red {
+    color: #ff0000;
+}
+.mr10 {
+    margin-right: 10px;
+}
+.table-td-thumb {
+    display: block;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+}
+.time-d-width{
+    width: 475px;
+}
+.mgt10{
+    margin-top: 10px!important;
+}
+.mgr8{
+    margin-right: 8px!important;
+}
+.mgt5{
+    margin-top: 5px!important;
+}
+.mgr0{
+    margin-right: 0!important;
+}
+.fl{
+    float: left;
+    button{
+       margin-top: 2px;
+       margin-bottom: 2px;
+    }
+}
+.fr{
+    float: right;
+}
+.mgb0{
+    margin-bottom: 0!important;
+}
+.c-red{
+    color: #d06851;
+}
+.w200{
+    width: 200px!important;
+}
+.w100{
+    width: 100px!important;
+}
+.mgb20{
+    margin-bottom: 20px!important;
+}
+.color666{
+    color: #666!important;
+}
+.pull-width{
+    width: 100%!important;
+}
+.mgt20{
+    margin-top: 20px!important;
+}
+.mgt-20{
+    margin-top:-20px!important
+}
+.flex{
+    display: flex;
+}
+.mgl10{
+    margin-left: 10px!important;
+}
+.mgr10{
+    margin-right: 10px!important;
+}
+.mgb10{
+    margin-bottom: 10px!important;
+}
+.colorfff{
+    color: #fff!important;
+}
+.el-table th.gutter,
+.el-table colgroup.gutter{
+display: table-cell!important;
+}
+.pk-important-text-tip {
+    background: #f7e9cf;
+    padding: 10px;
+    margin-bottom: 5px;
+    p{
+        color: #ff9001;
+        font-size: 12px;
+        line-height: 1.2;
+        margin: 0;
+    }
+}
+.el-tabs__header{
+    margin:0!important;
+}
+.f16{
+    font-size: 16px!important;
+}
+.red{
+    color: red!important;
+}
+.lineheight30{
+    line-height: 30px!important;
+}
+.padt5{
+    padding-top: 5px!important;
+}
