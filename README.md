@@ -327,8 +327,10 @@ Vue.prototype.$message = new DonMessage()
 ```
 
 <h3 id="9">9，mixins的使用</h3>
+
 - 文件地址 `src/pages/account/AgencyMant.vue` `src/mixins`
 - 作用相当于合并两个vue，组成新的vue对象，方法按原组件调用即可
+
 ```js
 import fData from '@/app.config';
 import { getAgeList } from '@/api/account';
