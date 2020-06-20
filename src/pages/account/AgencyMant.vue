@@ -111,6 +111,7 @@ export default {
 		};
 	},
 	created() {
+		console.log(this.agenListpro,"agenListpro")
 		this.getLineIdWay();
 		this.getData();
     },

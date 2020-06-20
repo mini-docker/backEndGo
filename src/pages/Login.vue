@@ -29,7 +29,7 @@
 <script>
 import {getLogin,getMenuOwn} from '@/api/auth'
 import bus from '@/components/common/bus';
-import {sysApi} from '@/api/apiPro'
+// import {sysApi} from '@/api/apiPro'
 export default {
     data: function() {
         return {
@@ -53,10 +53,10 @@ export default {
             let _this = this;
             this.$refs.login.validate(valid => {
                 if (valid) {
-                    sysApi.sysLogin(_this.param).then(res=>{
+                    getLogin(_this.param).then(res=>{
                         console.log(res,'resssss')
                         if (res.success) {
-                            let token = res.data.token
+                            let token = res.data;
                             sessionStorage.setItem("token", encodeURIComponent(JSON.stringify(token)));
                             _this.$message.success(this.$t('common.sucLogin'));
                             localStorage.setItem('ms_username', _this.param.account);

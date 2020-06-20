@@ -25,6 +25,7 @@ export const getAgencyId = {
                     this.agenList = res.data;
                     // sessionStorage.setItem('agenIds', this.agenList[0].account)
                     this.agenListpro = [{ agencyId: '', account: this.$t('common.all') }, ...res.data]
+                    console.log(this.agenListpro, "this.agenListpro");
                 } else {
                     this.$message.error(res.message);
                 }

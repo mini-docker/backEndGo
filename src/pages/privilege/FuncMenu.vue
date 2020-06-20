@@ -142,7 +142,7 @@ export default {
                     { required: true, message: this.$t('common.p_menuName'), trigger: 'blur' },
                     { min: 2, max: 20, message: this.$t('common.str_len'), trigger: 'blur' }
                 ],
-                parentId: [{ required: true, message: this.$t('common.p_selParMenu'), trigger: 'blur' }],
+                // parentId: [{ required: true, message: this.$t('common.p_selParMenu'), trigger: 'blur' }],
                 route: [{ required: true, message: this.$t('common.p_menuAddr'), trigger: 'blur' }],
                 status: [{ required: true, message: this.$t('common.p_selstatus'), trigger: 'blur' }],
                 isShow: [{ required: true, message: this.$t('common.p_selstatus'), trigger: 'blur' }],
@@ -165,7 +165,7 @@ export default {
         makeRadio(){
             let _this = this;
             setTimeout(function(){
-                console.log(_this.$(".el-radio__label"),'22222')
+                // console.log(_this.$(".el-radio__label"),'22222')
                 _this.$(".el-radio__label").css({
                     "font-weight": "400",
                     "font-size": "14px",
@@ -248,6 +248,9 @@ export default {
 				if (valid) {
                     let func = this.formStatus === 2?updMenu:addMenu;
                     this.ruleForm.sort*=1
+                    if(this.ruleForm.parentId==null||this.ruleForm.parentId==''){
+                        this.ruleForm.parentId = 0
+                    }
                     // 修改
                     func(this.ruleForm).then(res => {
                             if(res.success){
@@ -308,7 +311,7 @@ export default {
             }
         },
         getExpandRows(){
-             this.tableData.map(v=>{
+             this.tableData&&this.tableData.map(v=>{
                  if(v.children){
                      this.expandRows.push(v)
                      v.children.map(v2=>{

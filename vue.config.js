@@ -15,8 +15,8 @@ module.exports = {
 		port: 8888,
 		proxy: {
 			"/api": {
-				// target: "http://10.18.11.20:7072", //
-				target: "http://127.0.0.1:8080", //test
+				// target: "http://127.0.0.1:8080", //test
+				target: "http://127.0.0.1:8868", //test
 				ws: false,
 				changeOrigin: true, //是否跨域
 			},

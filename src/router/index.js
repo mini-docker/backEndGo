@@ -63,105 +63,105 @@ export default new Router({
                     meta: { title: '代理管理' }
                 },
 
-                // {
-                //     path: '/packageMant',
-                //     name: 'packageMant',
-                //     component: () => import(/* webpackChunkName: "lineMant" */ '../pages/lineMant/PackageMant.vue'),
-                //     meta: { title: '套餐管理' }
-                // },
-                // {
-                //     path: '/lineList',
-                //     name: 'lineList',
-                //     component: () => import(/* webpackChunkName: "lineMant" */ '../pages/lineMant/LineList.vue'),
-                //     meta: { title: '线路列表' }
-                // },
-                // {
-                //     path: '/lineComm',
-                //     name: 'lineComm',
-                //     component: () => import(/* webpackChunkName: "lineMant" */ '../pages/lineMant/LineComm.vue'),
-                //     meta: { title: '线路提成' }
-                // },
+                {
+                    path: '/packageMant',
+                    name: 'packageMant',
+                    component: () => import(/* webpackChunkName: "lineMant" */ '../pages/lineMant/PackageMant.vue'),
+                    meta: { title: '套餐管理' }
+                },
+                {
+                    path: '/lineList',
+                    name: 'lineList',
+                    component: () => import(/* webpackChunkName: "lineMant" */ '../pages/lineMant/LineList.vue'),
+                    meta: { title: '线路列表' }
+                },
+                {
+                    path: '/lineComm',
+                    name: 'lineComm',
+                    component: () => import(/* webpackChunkName: "lineMant" */ '../pages/lineMant/LineComm.vue'),
+                    meta: { title: '线路提成' }
+                },
 
-                // {
-                //     path: '/gameGroupList',
-                //     name: 'gameGroupList',
-                //     component: () => import(/* webpackChunkName: "gameGroupMant" */ '../pages/gameGroupMant/GameGroupList.vue'),
-                //     meta: { title: '游戏群列表' }
-                // },
-                // {
-                //     path: '/gamerobotMant',
-                //     name: 'gamerobotMant',
-                //     component: () => import(/* webpackChunkName: "gameMant" */ '../pages/gameGroupMant/GamerobotMant.vue'),
-                //     meta: { title: '机器人管理' }
-                // },
+                {
+                    path: '/gameGroupList',
+                    name: 'gameGroupList',
+                    component: () => import(/* webpackChunkName: "gameGroupMant" */ '../pages/gameGroupMant/GameGroupList.vue'),
+                    meta: { title: '游戏群列表' }
+                },
+                {
+                    path: '/gamerobotMant',
+                    name: 'gamerobotMant',
+                    component: () => import(/* webpackChunkName: "gameMant" */ '../pages/gameGroupMant/GamerobotMant.vue'),
+                    meta: { title: '机器人管理' }
+                },
 
-                // {
-                //     path: '/gameMant',
-                //     name: 'gameMant',
-                //     component: () => import(/* webpackChunkName: "redEnveGMant" */ '../pages/redEnveGMant/GameMant.vue'),
-                //     meta: { title: '游戏管理' }
-                // },
-                // {
-                //     path: '/redEnvNote',
-                //     name: 'redEnvNote',
-                //     component: () => import(/* webpackChunkName: "redEnveGMant" */ '../pages/redEnveGMant/RedEnvNote.vue'),
-                //     meta: { title: '注单管理' }
-                // },
-                // {
-                //     path: '/normalRed',
-                //     name: 'normalRed',
-                //     component: () => import(/* webpackChunkName: "redEnveGMant" */ '../pages/redEnveGMant/NormalRed.vue'),
-                //     meta: { title: '红包管理' }
-                // },
+                {
+                    path: '/gameMant',
+                    name: 'gameMant',
+                    component: () => import(/* webpackChunkName: "redEnveGMant" */ '../pages/redEnveGMant/GameMant.vue'),
+                    meta: { title: '游戏管理' }
+                },
+                {
+                    path: '/redEnvNote',
+                    name: 'redEnvNote',
+                    component: () => import(/* webpackChunkName: "redEnveGMant" */ '../pages/redEnveGMant/RedEnvNote.vue'),
+                    meta: { title: '注单管理' }
+                },
+                {
+                    path: '/normalRed',
+                    name: 'normalRed',
+                    component: () => import(/* webpackChunkName: "redEnveGMant" */ '../pages/redEnveGMant/NormalRed.vue'),
+                    meta: { title: '红包管理' }
+                },
 
-                // {
-                //     path: '/eventPicMant',
-                //     name: 'eventPicMant',
-                //     component: () => import(/* webpackChunkName: "consultingMant" */ '../pages/consultingMant/EventPicMant.vue'),
-                //     meta: { title: '活动图片管理' }
-                // },
-                // {
-                //     path: '/announceMant',
-                //     name: 'announceMant',
-                //     component: () => import(/* webpackChunkName: "consultingMant" */ '../pages/consultingMant/AnnounceMant.vue'),
-                //     meta: { title: '公告管理' }
-                // },
-                // {
-                //     path: '/sysConf',
-                //     name: 'sysConf',
-                //     component: () => import(/* webpackChunkName: "sysMant" */ '../pages/sysMant/sysConf.vue'),
-                //     meta: { title: '系统配置' }
-                // },
-                // {
-                //     path: '/log',
-                //     name: 'log',
-                //     component: () => import(/* webpackChunkName: "sysMant" */ '../pages/sysMant/log.vue'),
-                //     meta: { title: '操作日志' }
-                // },
-                // {
-                //     path: '/chartline',
-                //     name: 'chartline',
-                //     component: () => import(/* webpackChunkName: "statistics" */ '../pages/statistics/chartline.vue'),
-                //     meta: { title: '盈利分析' }
-                // },
-                // {
-                //     path: '/404',
-                //     name: '404',
-                //     component: () => import(/* webpackChunkName: "404" */ '../pages/404.vue'),
-                //     meta: { title: '404' }
-                // },
-                // {
-                //     path: '/404s',
-                //     name: '404s',
-                //     component: () => import(/* webpackChunkName: "404" */ '../pages/404s.vue'),
-                //     meta: { title: '404s' }
-                // },
-                // {
-                //     path: '/403',
-                //     name: '403',
-                //     component: () => import(/* webpackChunkName: "403" */ '../pages/403.vue'),
-                //     meta: { title: '403' }
-                // },
+                {
+                    path: '/eventPicMant',
+                    name: 'eventPicMant',
+                    component: () => import(/* webpackChunkName: "consultingMant" */ '../pages/consultingMant/EventPicMant.vue'),
+                    meta: { title: '活动图片管理' }
+                },
+                {
+                    path: '/announceMant',
+                    name: 'announceMant',
+                    component: () => import(/* webpackChunkName: "consultingMant" */ '../pages/consultingMant/AnnounceMant.vue'),
+                    meta: { title: '公告管理' }
+                },
+                {
+                    path: '/sysConf',
+                    name: 'sysConf',
+                    component: () => import(/* webpackChunkName: "sysMant" */ '../pages/sysMant/sysConf.vue'),
+                    meta: { title: '系统配置' }
+                },
+                {
+                    path: '/log',
+                    name: 'log',
+                    component: () => import(/* webpackChunkName: "sysMant" */ '../pages/sysMant/log.vue'),
+                    meta: { title: '操作日志' }
+                },
+                {
+                    path: '/chartline',
+                    name: 'chartline',
+                    component: () => import(/* webpackChunkName: "statistics" */ '../pages/statistics/chartline.vue'),
+                    meta: { title: '盈利分析' }
+                },
+                {
+                    path: '/404',
+                    name: '404',
+                    component: () => import(/* webpackChunkName: "404" */ '../pages/404.vue'),
+                    meta: { title: '404' }
+                },
+                {
+                    path: '/404s',
+                    name: '404s',
+                    component: () => import(/* webpackChunkName: "404" */ '../pages/404s.vue'),
+                    meta: { title: '404s' }
+                },
+                {
+                    path: '/403',
+                    name: '403',
+                    component: () => import(/* webpackChunkName: "403" */ '../pages/403.vue'),
+                    meta: { title: '403' }
+                },
             ]
         },
         {
