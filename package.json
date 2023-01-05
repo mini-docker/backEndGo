@@ -24,8 +24,8 @@
     "vuedraggable": "^2.17.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.9.0",
-    "@vue/cli-service": "^3.9.0",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0",
     "terser-webpack-plugin": "^2.3.2",
